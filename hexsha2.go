@@ -25,7 +25,7 @@ func TruncBase32Digest(len int, input string) string{
  if (len > 52 || len<1) {
   len= 52
  }
-last = (len*5)/8
+last := (len*5)/8
 return base32.HexEncoding.EncodeToString(sum[:last])
 }
  
