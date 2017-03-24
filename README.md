@@ -1,2 +1,3 @@
 # hexsha2
-helper function for go
+Small helper functions to create unique ids of varying lenghts from strings. 
+
