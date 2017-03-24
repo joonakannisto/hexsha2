@@ -1,7 +1,7 @@
 package hexsha2
 
 import "crypto/sha256"
-import "hex"
+import "encoding/hex"
 import "encoding/base32"
 
 
